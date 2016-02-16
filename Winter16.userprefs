@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Pickup.js">
+    <Files>
+      <File FileName="Assets/CharacterController.js" Line="29" Column="38" />
+      <File FileName="Assets/Pickup.js" Line="22" Column="19" />
+      <File FileName="Assets/LevelController.js" Line="7" Column="31" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

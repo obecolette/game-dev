@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 
 public var points:int = 20;
 public var speed:int = 2;
@@ -38,10 +38,7 @@ function OnTriggerEnter2D(other: Collider2D) {
 		// points
 		LC.addPoints(points);
 
-		// add Speed to Level Controller
-		LC.addSpeed(speed);
-
 		// add to JumpHeight
-		PC.addLevelSpeed(speed);
+		PC.addSpeed(speed);
 	}
 }

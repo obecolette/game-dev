@@ -2,7 +2,8 @@
 
 public var maxSpeed:Number = 8;
 public var acceleration:Number = 0.2;
-public var levelSpeed:Number = 2;
+public var jumpHeight:Number;
+public var upwardForce:Number;
 private var jumpUsed:boolean = false;
 private var LC:LevelController;
 
@@ -11,6 +12,9 @@ function Start () {
     
     var levelControllerGameObject = GameObject.Find("LevelController");
     var LC = levelControllerGameObject.GetComponent(LevelController);
+    
+    jumpHeight = LC.levelSpeed;
+    
 }
 
 public function skyLevelTrigger() {
@@ -19,15 +23,13 @@ public function skyLevelTrigger() {
 	rb.gravityScale = 0;
 }
 
-public function addSpeed(speed:Number) {
-    levelSpeed += speed;
-}
-
-public function removeSpeed(speed:Number) {
-    levelSpeed -= (speed/100);
-}
-
 function FixedUpdate () {
+    
+    var levelControllerGameObject = GameObject.Find("LevelController");
+    var LC = levelControllerGameObject.GetComponent(LevelController);
+    
+    jumpHeight = LC.levelSpeed;
+    upwardForce = LC.levelSpeed;
 
 	var rb = GetComponent(Rigidbody2D);
 	var sprite = transform.Find("mario animation");
@@ -55,7 +57,7 @@ function FixedUpdate () {
 			if ( !jumpUsed && Input.GetKey(KeyCode.UpArrow) ) {
 				jumpUsed = true;
 				Debug.Log("grounded and hitting up key");
-				rb.velocity.y = levelSpeed; // get JumpSpeed from LevelController
+				rb.velocity.y = jumpHeight; // get JumpSpeed from LevelController
 			}
 
 			if (Input.GetKey(KeyCode.UpArrow)) {

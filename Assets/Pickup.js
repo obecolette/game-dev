@@ -39,6 +39,6 @@ function OnTriggerEnter2D(other: Collider2D) {
 		LC.addPoints(points);
 
 		// add to JumpHeight
-		PC.addSpeed(speed);
+		LC.addSpeed(speed);
 	}
 }

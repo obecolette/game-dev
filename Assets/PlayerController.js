@@ -6,6 +6,7 @@ public var jumpHeight:Number;
 public var upwardForce:Number;
 private var jumpUsed:boolean = false;
 private var LC:LevelController;
+private var mode = "jumping"; 
 
 function Start () {
 	// Get level controller
@@ -14,13 +15,14 @@ function Start () {
     var LC = levelControllerGameObject.GetComponent(LevelController);
     
     jumpHeight = LC.levelSpeed;
-    
 }
 
 public function skyLevelTrigger() {
 
-	var rb = GetComponent(Rigidbody2D);
-	rb.gravityScale = 0;
+	mode = "flying";
+    Debug.Log(mode);
+    
+    LC.speedDrainRate = 0.01;
 }
 
 function FixedUpdate () {
@@ -34,14 +36,13 @@ function FixedUpdate () {
 	var rb = GetComponent(Rigidbody2D);
 	var sprite = transform.Find("mario animation");
 	var spriteAnimationController = sprite.GetComponent(Animator);
-
-	if ( Input.GetKey(KeyCode.LeftArrow) ) {
-		rb.velocity.x -= acceleration;
-	} else if ( Input.GetKey(KeyCode.RightArrow) ) {
-		rb.velocity.x += acceleration;
-	}
-
-	var mode = "jumping";
+    
+    if ( Input.GetKey(KeyCode.LeftArrow) ) {
+        rb.velocity.x -= acceleration;
+    } else if ( Input.GetKey(KeyCode.RightArrow) ) {
+        rb.velocity.x += acceleration;
+    }
+    
 	if (mode == "jumping") {
 
 		var rayStart = transform.position;
@@ -69,17 +70,18 @@ function FixedUpdate () {
 			Debug.Log("Sky Level Triggered");
 
 			skyLevelTrigger();
-		}
-
-	} else if ( mode == "jumping" ) {
-		
+		}	
 
 
 	} else if ( mode == "flying" ) {
+        
+		rb.velocity.y = upwardForce;
 
-		
+	} else if ( mode == "thrusting") {
 
-	} else {
+        
+    
+    } else {
 
 		spriteAnimationController.SetBool("Grounded", false);
 	}

@@ -28,5 +28,4 @@ function Update () {
 
 function FixedUpdate () {
 	levelSpeed -= speedDrainRate;
-    Debug.Log(levelSpeed);
 }

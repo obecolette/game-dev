@@ -42,3 +42,4 @@ function OnTriggerEnter2D(other: Collider2D) {
 		LC.addSpeed(speed);
 	}
 }
+

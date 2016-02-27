@@ -18,11 +18,16 @@ function Start () {
 }
 
 public function skyLevelTrigger() {
+    
+    var levelControllerGameObject = GameObject.Find("LevelController");
+    var LC = levelControllerGameObject.GetComponent(LevelController);
 
 	mode = "flying";
     Debug.Log(mode);
     
-    LC.speedDrainRate = 0.01;
+    LC.speedDrainRate = 0.003;
+    LC.levelSpeed = 6;
+    Debug.Log(LC.levelSpeed);
 }
 
 function FixedUpdate () {
@@ -56,19 +61,19 @@ function FixedUpdate () {
 			spriteAnimationController.SetBool("Grounded", true);
 
 			if ( !jumpUsed && Input.GetKey(KeyCode.UpArrow) ) {
+                
 				jumpUsed = true;
-				Debug.Log("grounded and hitting up key");
 				rb.velocity.y = jumpHeight; // get JumpSpeed from LevelController
 			}
 
 			if (Input.GetKey(KeyCode.UpArrow)) {
+                
 				jumpUsed = false;
 			}
 
 		} else if ( hitSomething.collider && hitSomething.collider.tag == "SkyLevelTrigger" && hitSomething.distance < 0.1  ) {
 
 			Debug.Log("Sky Level Triggered");
-
 			skyLevelTrigger();
 		}	
 

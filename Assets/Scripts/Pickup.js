@@ -22,6 +22,7 @@ function Update () {
 function OnTriggerEnter2D(other: Collider2D) {
 
 	Debug.Log("OnTriggerEnter2D");
+    Debug.Log(LC.levelSpeed);
 
 	if (other.tag == "Player" && !pickedUp) {
 		Debug.Log("hit by the player");

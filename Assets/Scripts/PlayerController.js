@@ -30,6 +30,15 @@ public function skyLevelTrigger() {
     Debug.Log(LC.levelSpeed);
 }
 
+public function spaceLevelTrigger() {
+    var levelControllerGameObject = GameObject.Find("LevelController");
+    var LC = levelControllerGameObject.GetComponent(LevelController);
+    
+    mode = "floating";
+    
+    LC.levelSpeed = 20;
+}
+
 function FixedUpdate () {
     
     var levelControllerGameObject = GameObject.Find("LevelController");
@@ -39,26 +48,23 @@ function FixedUpdate () {
     upwardForce = LC.levelSpeed;
 
 	var rb = GetComponent(Rigidbody2D);
-	var sprite = transform.Find("mario animation");
-	var spriteAnimationController = sprite.GetComponent(Animator);
     
-    if ( Input.GetKey(KeyCode.LeftArrow) ) {
-        rb.velocity.x -= acceleration;
-    } else if ( Input.GetKey(KeyCode.RightArrow) ) {
-        rb.velocity.x += acceleration;
-    }
+    var rayStart = transform.position;
+    rayStart.y -= 1.1;
+    Debug.DrawRay(rayStart, -Vector2.up * 0.1, Color.green, 1 );
+
+    var hitSomething:RaycastHit2D = Physics2D.Raycast(rayStart, -Vector2.up, 0.1);
+    
     
 	if (mode == "jumping") {
-
-		var rayStart = transform.position;
-		rayStart.y -= 1.1;
-		Debug.DrawRay(rayStart, -Vector2.up * 0.1, Color.green, 1 );
-
-		var hitSomething:RaycastHit2D = Physics2D.Raycast(rayStart, -Vector2.up, 0.1);
+        
+        if ( Input.GetKey(KeyCode.LeftArrow) ) {
+        rb.velocity.x -= acceleration;
+        } else if ( Input.GetKey(KeyCode.RightArrow) ) {
+            rb.velocity.x += acceleration;
+        }
 
 		if ( hitSomething.collider && hitSomething.collider.tag == "Ground" && hitSomething.distance < 0.1 ) {
-			
-			spriteAnimationController.SetBool("Grounded", true);
 
 			if ( !jumpUsed && Input.GetKey(KeyCode.UpArrow) ) {
                 
@@ -80,15 +86,48 @@ function FixedUpdate () {
 
 	} else if ( mode == "flying" ) {
         
-		rb.velocity.y = upwardForce;
-
-	} else if ( mode == "thrusting") {
-
+        if ( Input.GetKey(KeyCode.LeftArrow) ) {
+            rb.velocity.x -= acceleration;
+        } else if ( Input.GetKey(KeyCode.RightArrow) ) {
+            rb.velocity.x += acceleration;
+        }
         
-    
-    } else {
+		rb.velocity.y = upwardForce;
+        
+        if ( hitSomething.collider && hitSomething.collider.tag == "SpaceLevelTrigger" && hitSomething.distance < 0.1 ) {
+            
+            Debug.Log("Space Level Triggered");
+            spaceLevelTrigger();
+        }
 
-		spriteAnimationController.SetBool("Grounded", false);
+	} else if ( mode == "floating") {
+        
+        LC.speedDrainRate = 0;
+        rb.gravityScale = 0;
+        rb.velocity.y = 0;
+        
+        if ( Input.GetKey(KeyCode.UpArrow) ) {
+            
+            rb.drag = 0;
+            rb.velocity.y += 1;
+            
+            if ( Input.GetKeyUp(KeyCode.UpArrow) ) {
+                
+                rb.drag = 20;
+            }
+            
+        } else if ( Input.GetKey(KeyCode.LeftArrow) ) {
+            
+            rb.velocity.x -= 1;
+            
+            if ( Input.GetKeyUp(KeyCode.LeftArrow) ) {
+                
+                rb.velocity.x = 0;
+            }
+        }
+        
+        
+    } else {
 	}
 } 
 

@@ -88,6 +88,5 @@ function FixedUpdate () {
             Debug.Log("Space Level Triggered");
             spaceLevelTrigger();
         }
-
 	}
 } 

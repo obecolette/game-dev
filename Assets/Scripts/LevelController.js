@@ -6,7 +6,7 @@ public var maxSpeed:Number = 15;
 public var minSpeed:Number = 1;
 private var PC:PlayerController;
 
-public var levelSpeed:Number = 2;
+public var levelSpeed:Number = 20;
 
 function Start () {
     var playerControllerGameObject = GameObject.Find("Player");
@@ -14,7 +14,11 @@ function Start () {
 }
 
 public function addSpeed(speed:Number) {
-    levelSpeed += speed;
+    
+    if (levelSpeed < 10) {
+        levelSpeed += speed;
+    } 
+    
 }
 
 public function addPoints(points:int) {

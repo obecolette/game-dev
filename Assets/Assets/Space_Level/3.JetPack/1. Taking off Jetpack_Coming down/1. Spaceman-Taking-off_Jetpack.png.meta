@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: 33071cf9e6bfb4b5c902b746f0e70305
-timeCreated: 1456244334
+timeCreated: 1456849807
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: 1. Spaceman-Taking-off_Jetpack_0
+    21300002: 1. Spaceman-Taking-off_Jetpack_1
+    21300004: 1. Spaceman-Taking-off_Jetpack_2
+    21300006: 1. Spaceman-Taking-off_Jetpack_3
+    21300008: 1. Spaceman-Taking-off_Jetpack_4
+    21300010: 1. Spaceman-Taking-off_Jetpack_5
+    21300012: 1. Spaceman-Taking-off_Jetpack_6
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -29,8 +36,8 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +45,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +56,131 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: 1. Spaceman-Taking-off_Jetpack_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 92
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35.5, y: -8.5}
+        - {x: -35.5, y: -46.5}
+        - {x: 35.5, y: -46.5}
+        - {x: 35.5, y: 46.5}
+        - {x: -25.5, y: 46.5}
+        - {x: -34.5, y: 0.5}
+    - name: 1. Spaceman-Taking-off_Jetpack_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 90
+        width: 71
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 46.5}
+        - {x: -35.5, y: 43.5}
+        - {x: -35.5, y: -46.5}
+        - {x: 35.5, y: -46.5}
+        - {x: 35.5, y: 32.5}
+        - {x: 26.5, y: 46.5}
+    - name: 1. Spaceman-Taking-off_Jetpack_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 81
+        width: 71
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 48}
+        - {x: -35.5, y: 12}
+        - {x: -35.5, y: -48}
+        - {x: 35.5, y: -48}
+        - {x: 35.5, y: 48}
+    - name: 1. Spaceman-Taking-off_Jetpack_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 84
+        width: 71
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 65}
+        - {x: -35.5, y: 64}
+        - {x: -35.5, y: -65}
+        - {x: 35.5, y: -65}
+        - {x: 35.5, y: 62}
+        - {x: 32.5, y: 65}
+    - name: 1. Spaceman-Taking-off_Jetpack_4
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 86
+        width: 91
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 74.5}
+        - {x: -45.5, y: 42.5}
+        - {x: -45.5, y: -74.5}
+        - {x: 45.5, y: -74.5}
+        - {x: 45.5, y: 49.5}
+        - {x: 14.5, y: 74.5}
+    - name: 1. Spaceman-Taking-off_Jetpack_5
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 88
+        width: 109
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 89}
+        - {x: -54.5, y: 52}
+        - {x: -54.5, y: -86}
+        - {x: -48.5, y: -89}
+        - {x: 54.5, y: -89}
+        - {x: 54.5, y: 25}
+        - {x: 30.5, y: 89}
+    - name: 1. Spaceman-Taking-off_Jetpack_6
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 79
+        width: 150
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: 57.5}
+        - {x: 28, y: 107.5}
+        - {x: 21, y: 108.5}
+        - {x: -25, y: 108.5}
+        - {x: -28, y: 106.5}
+        - {x: -75, y: -0.5}
+        - {x: -75, y: -95.5}
+        - {x: -65, y: -108.5}
+        - {x: 75, y: -108.5}
+        - {x: 75, y: -48.5}
+        - {x: 47, y: -30.5}
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 81699288b1954472fbd27a08abd8806c
+timeCreated: 1457045102
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rocket-taking-off_0
+    21300002: Rocket-taking-off_1
+    21300004: Rocket-taking-off_2
+    21300006: Rocket-taking-off_3
+    21300008: Rocket-taking-off_4
+    21300010: Rocket-taking-off_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rocket-taking-off_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 143
+        width: 154
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 141}
+        - {x: -10, y: 136}
+        - {x: -13, y: 116}
+        - {x: -15, y: 103}
+        - {x: -42, y: 27}
+        - {x: -77, y: -79}
+        - {x: -77, y: -137}
+        - {x: -76, y: -141}
+        - {x: 77, y: -141}
+        - {x: 77, y: -73}
+        - {x: 8, y: 141}
+    - name: Rocket-taking-off_1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 141
+        width: 154
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 151}
+        - {x: -9, y: 151}
+        - {x: -77, y: -55}
+        - {x: -77, y: -140}
+        - {x: -46, y: -151}
+        - {x: 77, y: -151}
+        - {x: 77, y: -63}
+        - {x: 40, y: 49}
+    - name: Rocket-taking-off_2
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 141
+        width: 154
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 173}
+        - {x: -10, y: 168}
+        - {x: -49, y: 61}
+        - {x: -77, y: -68}
+        - {x: -77, y: -105}
+        - {x: -71, y: -110}
+        - {x: -68, y: -109}
+        - {x: -65, y: -150}
+        - {x: -45, y: -173}
+        - {x: 77, y: -173}
+        - {x: 77, y: 106}
+        - {x: 6, y: 173}
+    - name: Rocket-taking-off_3
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 143
+        width: 154
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 189.5}
+        - {x: -8, y: 189.5}
+        - {x: -11, y: 177.5}
+        - {x: -17, y: 136.5}
+        - {x: -39, y: 81.5}
+        - {x: -48, y: 56.5}
+        - {x: -77, y: 15.5}
+        - {x: -77, y: -171.5}
+        - {x: -52, y: -189.5}
+        - {x: 55, y: -189.5}
+        - {x: 77, y: -180.5}
+        - {x: 77, y: -36.5}
+        - {x: 55, y: 67.5}
+    - name: Rocket-taking-off_4
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 145
+        width: 203
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.5, y: 96}
+        - {x: -7.5, y: 220}
+        - {x: -30.5, y: 220}
+        - {x: -100.5, y: -29}
+        - {x: -87.5, y: -67}
+        - {x: -78.5, y: -62}
+        - {x: -44.5, y: -104}
+        - {x: -35.5, y: -106}
+        - {x: -32.5, y: -102}
+        - {x: -31.5, y: -109}
+        - {x: -61.5, y: -115}
+        - {x: -101.5, y: -141}
+        - {x: -101.5, y: -212}
+        - {x: -92.5, y: -220}
+        - {x: 99.5, y: -220}
+        - {x: 101.5, y: -217}
+        - {x: 101.5, y: -117}
+        - {x: 84.5, y: -84}
+    - name: Rocket-taking-off_5
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 141
+        width: 279
+        height: 532
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 113.5, y: -131}
+        - {x: 31.5, y: -85}
+        - {x: 60.5, y: -32}
+        - {x: 66.5, y: 27}
+        - {x: 34.5, y: 104}
+        - {x: 17.5, y: 170}
+        - {x: -13.5, y: 264}
+        - {x: -17.5, y: 266}
+        - {x: -27.5, y: 266}
+        - {x: -30.5, y: 259}
+        - {x: -58.5, y: 161}
+        - {x: -78.5, y: 93}
+        - {x: -102.5, y: 5}
+        - {x: -98.5, y: -28}
+        - {x: -70.5, y: -6}
+        - {x: -66.5, y: -57}
+        - {x: -56.5, y: -117}
+        - {x: -99.5, y: -126}
+        - {x: -138.5, y: -164}
+        - {x: -139.5, y: -165}
+        - {x: -139.5, y: -244}
+        - {x: -115.5, y: -266}
+        - {x: 74.5, y: -266}
+        - {x: 113.5, y: -247}
+        - {x: 139.5, y: -227}
+        - {x: 139.5, y: -178}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

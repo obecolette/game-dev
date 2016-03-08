@@ -1,0 +1,433 @@
+fileFormatVersion: 2
+guid: 3a0bcd92d198949aca2d013fc2548a01
+timeCreated: 1457113769
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Jumping-out-of-the-rocket_0
+    21300002: Jumping-out-of-the-rocket_1
+    21300004: Jumping-out-of-the-rocket_2
+    21300006: Jumping-out-of-the-rocket_3
+    21300008: Jumping-out-of-the-rocket_4
+    21300010: Jumping-out-of-the-rocket_5
+    21300012: Jumping-out-of-the-rocket_6
+    21300014: Jumping-out-of-the-rocket_7
+    21300016: Jumping-out-of-the-rocket_8
+    21300018: Jumping-out-of-the-rocket_9
+    21300020: Jumping-out-of-the-rocket_10
+    21300022: Jumping-out-of-the-rocket_11
+    21300024: Jumping-out-of-the-rocket_12
+    21300026: Jumping-out-of-the-rocket_13
+    21300028: Jumping-out-of-the-rocket_14
+    21300030: Jumping-out-of-the-rocket_15
+    21300032: Jumping-out-of-the-rocket_16
+    21300034: Jumping-out-of-the-rocket_17
+    21300036: Jumping-out-of-the-rocket_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Jumping-out-of-the-rocket_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 126
+        width: 214
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.225121, y: 72.558624}
+        - {x: -50.22512, y: 72.558624}
+        - {x: -54.22512, y: 48.558624}
+        - {x: -54.22512, y: -71.441376}
+        - {x: 28.77488, y: -71.441376}
+        - {x: 54.77488, y: -65.441376}
+        - {x: 54.77488, y: -8.441376}
+        - {x: -9.225121, y: 70.558624}
+    - name: Jumping-out-of-the-rocket_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.169952, y: 72.558624}
+        - {x: -36.169952, y: 19.558624}
+        - {x: -54.169952, y: -38.441376}
+        - {x: -54.169952, y: -71.441376}
+        - {x: 38.830048, y: -71.441376}
+        - {x: 54.830048, y: -51.441376}
+        - {x: 54.830048, y: -0.44137573}
+        - {x: -7.1699524, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.132507, y: 72.558624}
+        - {x: -54.132507, y: -21.441376}
+        - {x: -54.132507, y: -71.441376}
+        - {x: 44.867493, y: -71.441376}
+        - {x: 54.867493, y: -61.441376}
+        - {x: 54.867493, y: 23.558624}
+        - {x: 9.867493, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 126
+        width: 213
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.586182, y: 72.558624}
+        - {x: -53.58618, y: -29.441376}
+        - {x: -53.58618, y: -71.441376}
+        - {x: 54.41382, y: -71.441376}
+        - {x: 54.41382, y: 8.558624}
+        - {x: 23.413818, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_4
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.093079, y: 72.558624}
+        - {x: -24.093079, y: 72.558624}
+        - {x: -54.09308, y: 41.558624}
+        - {x: -54.09308, y: -71.441376}
+        - {x: 54.90692, y: -71.441376}
+        - {x: 54.90692, y: -19.441376}
+        - {x: 36.90692, y: -4.4413757}
+    - name: Jumping-out-of-the-rocket_5
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.037903, y: 72.558624}
+        - {x: -28.037903, y: 70.558624}
+        - {x: -54.037903, y: -42.441376}
+        - {x: -54.037903, y: -71.441376}
+        - {x: 33.962097, y: -71.441376}
+        - {x: 54.962097, y: -63.441376}
+        - {x: 54.962097, y: 2.5586243}
+        - {x: 19.962097, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_6
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.03595, y: 72.558624}
+        - {x: -54.03595, y: -13.441376}
+        - {x: -54.03595, y: -71.441376}
+        - {x: 40.96405, y: -71.441376}
+        - {x: 54.96405, y: -68.441376}
+        - {x: 54.96405, y: -6.4413757}
+        - {x: -10.03595, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_7
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 126
+        width: 216
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.01178, y: 72.558624}
+        - {x: -54.01178, y: -20.441376}
+        - {x: -54.01178, y: -71.441376}
+        - {x: 43.98822, y: -71.441376}
+        - {x: 55.98822, y: -60.441376}
+        - {x: 55.98822, y: -0.44137573}
+        - {x: -7.01178, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_8
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 126
+        width: 218
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.429993, y: 72.558624}
+        - {x: -55.429993, y: -10.441376}
+        - {x: -55.429993, y: -71.441376}
+        - {x: 33.570007, y: -71.441376}
+        - {x: 55.570007, y: -58.441376}
+        - {x: 55.570007, y: -0.44137573}
+        - {x: -7.4299927, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_9
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 126
+        width: 218
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.374878, y: 72.558624}
+        - {x: -55.374878, y: -14.441376}
+        - {x: -55.374878, y: -71.441376}
+        - {x: 39.625122, y: -71.441376}
+        - {x: 55.625122, y: -59.441376}
+        - {x: 55.625122, y: -9.441376}
+        - {x: -8.374878, y: 72.558624}
+    - name: Jumping-out-of-the-rocket_10
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 121
+        width: 218
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.30188, y: 73.03645}
+        - {x: -55.30188, y: -25.963547}
+        - {x: -55.30188, y: -68.96355}
+        - {x: -54.30188, y: -72.96355}
+        - {x: 36.69812, y: -72.96355}
+        - {x: 55.69812, y: -64.96355}
+        - {x: 55.69812, y: 13.036453}
+        - {x: 15.69812, y: 73.03645}
+    - name: Jumping-out-of-the-rocket_11
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 113
+        width: 218
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.273315, y: 75.00099}
+        - {x: -55.273315, y: -20.999008}
+        - {x: -55.273315, y: -74.99901}
+        - {x: 37.726685, y: -74.99901}
+        - {x: 55.726685, y: -66.99901}
+        - {x: 55.726685, y: 8.000992}
+        - {x: 8.726685, y: 75.00099}
+    - name: Jumping-out-of-the-rocket_12
+      rect:
+        serializedVersion: 2
+        x: 2876
+        y: 107
+        width: 217
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.749268, y: 77.97438}
+        - {x: -54.749268, y: 45.97438}
+        - {x: -54.749268, y: -76.02562}
+        - {x: 34.250732, y: -76.02562}
+        - {x: 56.250732, y: -47.02562}
+        - {x: 56.250732, y: -12.0256195}
+        - {x: -6.7492676, y: 77.97438}
+    - name: Jumping-out-of-the-rocket_13
+      rect:
+        serializedVersion: 2
+        x: 3105
+        y: 89
+        width: 216
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.733887, y: 82.39458}
+        - {x: -42.733887, y: 16.394577}
+        - {x: -54.733887, y: -39.605423}
+        - {x: -54.733887, y: -67.60542}
+        - {x: -47.733887, y: -80.60542}
+        - {x: 11.266113, y: -80.60542}
+        - {x: 55.266113, y: -65.60542}
+        - {x: 55.266113, y: -3.605423}
+        - {x: -8.733887, y: 82.39458}
+      - - {x: 51.266113, y: -64.60542}
+        - {x: 51.266113, y: -68.60542}
+        - {x: 54.266113, y: -71.60542}
+        - {x: 55.266113, y: -71.60542}
+        - {x: 55.266113, y: -60.605423}
+        - {x: 52.266113, y: -61.605423}
+    - name: Jumping-out-of-the-rocket_14
+      rect:
+        serializedVersion: 2
+        x: 3319
+        y: 67
+        width: 218
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.714844, y: -5.202957}
+        - {x: 43.714844, y: 7.797043}
+        - {x: -10.285156, y: 87.79704}
+        - {x: -19.285156, y: 87.79704}
+        - {x: -20.285156, y: 86.79704}
+        - {x: -55.285156, y: 10.797043}
+        - {x: -55.285156, y: -73.20296}
+        - {x: -48.285156, y: -86.20296}
+        - {x: -3.2851562, y: -86.20296}
+        - {x: 24.714844, y: -73.20296}
+        - {x: 53.714844, y: -36.202957}
+        - {x: 55.714844, y: -29.202957}
+      - - {x: -55.285156, y: -27.202957}
+        - {x: -52.285156, y: -26.202957}
+        - {x: -52.285156, y: -14.202957}
+        - {x: -54.285156, y: -12.202957}
+        - {x: -55.285156, y: -12.202957}
+    - name: Jumping-out-of-the-rocket_15
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 126
+        width: 215
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.730103, y: -5.4413757}
+        - {x: -10.269897, y: 69.558624}
+        - {x: -13.269897, y: 72.558624}
+        - {x: -21.269897, y: 72.558624}
+        - {x: -54.269897, y: 20.558624}
+        - {x: -54.269897, y: -71.441376}
+        - {x: 26.730103, y: -71.441376}
+        - {x: 54.730103, y: -52.441376}
+        - {x: 55.730103, y: -49.441376}
+        - {x: 55.730103, y: -17.441376}
+    - name: Jumping-out-of-the-rocket_16
+      rect:
+        serializedVersion: 2
+        x: 3779
+        y: 126
+        width: 214
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38.754272, y: -3.4413757}
+        - {x: 20.754272, y: -8.441376}
+        - {x: 20.754272, y: 24.558624}
+        - {x: -9.245728, y: 72.558624}
+        - {x: -29.245728, y: 72.558624}
+        - {x: -45.245728, y: 13.558624}
+        - {x: -54.245728, y: -21.441376}
+        - {x: -54.245728, y: -71.441376}
+        - {x: 38.754272, y: -71.441376}
+        - {x: 52.754272, y: -54.441376}
+        - {x: 54.754272, y: -49.441376}
+        - {x: 54.754272, y: -19.441376}
+    - name: Jumping-out-of-the-rocket_17
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 50
+        width: 156
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Jumping-out-of-the-rocket_18
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 24
+        width: 154
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

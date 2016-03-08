@@ -15,6 +15,9 @@ function Start () {
     LC = levelControllerGameObject.GetComponent(LevelController);
     
     jumpHeight = LC.levelSpeed;
+    Debug.Log(jumpHeight);
+    
+    Debug.Log(mode);
 }
 
 public function skyLevelTrigger() {
@@ -39,7 +42,7 @@ function FixedUpdate () {
 	var rb = GetComponent(Rigidbody2D);
     
     var rayStart = transform.position;
-    rayStart.y -= 1.1;
+    rayStart.y -= 2.4;
     Debug.DrawRay(rayStart, -Vector2.up * 0.1, Color.green, 1 );
 
     var hitSomething:RaycastHit2D = Physics2D.Raycast(rayStart, -Vector2.up, 0.1);
@@ -66,7 +69,9 @@ function FixedUpdate () {
 				jumpUsed = false;
 			}
 
-		} else if ( hitSomething.collider && hitSomething.collider.tag == "SkyLevelTrigger" && hitSomething.distance < 0.1  ) {
+		} 
+        
+        if ( hitSomething.collider && hitSomething.collider.tag == "SkyLevelTrigger" && hitSomething.distance < 0.1  ) {
 
 			Debug.Log("Sky Level Triggered");
 			skyLevelTrigger();

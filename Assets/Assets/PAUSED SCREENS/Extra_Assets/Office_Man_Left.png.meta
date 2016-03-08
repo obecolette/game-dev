@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 83cc9089b104b48f0be8c50ca2a09ef6
+timeCreated: 1457205175
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Office_Man_Left_0
+    21300002: Office_Man_Left_1
+    21300004: Office_Man_Left_2
+    21300006: Office_Man_Left_3
+    21300008: Office_Man_Left_4
+    21300010: Office_Man_Left_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Office_Man_Left_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 33
+        width: 153
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -10}
+        - {x: 29.5, y: -5}
+        - {x: 34.5, y: -12}
+        - {x: 28.5, y: -28}
+        - {x: 39.5, y: -33}
+        - {x: 54.5, y: -36}
+        - {x: 60.5, y: -16}
+        - {x: 48.5, y: 34}
+        - {x: 41.5, y: 107}
+        - {x: 9.5, y: 133}
+        - {x: -5.5, y: 133}
+        - {x: -6.5, y: 132}
+        - {x: -53.5, y: 124}
+        - {x: -54.5, y: 121}
+        - {x: -51.5, y: 118}
+        - {x: -58.5, y: 106}
+        - {x: -59.5, y: 99}
+        - {x: -76.5, y: 42}
+        - {x: -76.5, y: -122}
+        - {x: -58.5, y: -130}
+        - {x: -42.5, y: -129}
+        - {x: -32.5, y: -116}
+        - {x: 7.5, y: -133}
+        - {x: 71.5, y: -133}
+        - {x: 76.5, y: -124}
+        - {x: 76.5, y: -84}
+        - {x: 27.5, y: -33}
+    - name: Office_Man_Left_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 33
+        width: 129
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -64.5, y: 134}
+        - {x: -64.5, y: -134}
+        - {x: 64.5, y: -134}
+        - {x: 64.5, y: 130}
+        - {x: 63.5, y: 134}
+    - name: Office_Man_Left_2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 31
+        width: 104
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 135.5}
+        - {x: -52, y: 128.5}
+        - {x: -52, y: -135.5}
+        - {x: -7, y: -134.5}
+        - {x: -1, y: -129.5}
+        - {x: 5, y: -117.5}
+        - {x: -4, y: -134.5}
+        - {x: -1, y: -135.5}
+        - {x: 34, y: -135.5}
+        - {x: 52, y: -109.5}
+        - {x: 52, y: 91.5}
+        - {x: 26, y: 135.5}
+    - name: Office_Man_Left_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 32
+        width: 94
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -47, y: 135.5}
+        - {x: -47, y: -94.5}
+        - {x: -35, y: -131.5}
+        - {x: -28, y: -135.5}
+        - {x: 14, y: -135.5}
+        - {x: 47, y: -131.5}
+        - {x: 47, y: 123.5}
+        - {x: 38, y: 135.5}
+    - name: Office_Man_Left_4
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 43
+        width: 160
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -69, y: 127.5}
+        - {x: -80, y: 103.5}
+        - {x: -80, y: -127.5}
+        - {x: 80, y: -127.5}
+        - {x: 80, y: -31.5}
+        - {x: 40, y: 112.5}
+        - {x: 6, y: 127.5}
+    - name: Office_Man_Left_5
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 39
+        width: 132
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 121.5}
+        - {x: -66, y: 109.5}
+        - {x: -66, y: -131.5}
+        - {x: -62, y: -132.5}
+        - {x: 66, y: -132.5}
+        - {x: 66, y: 132.5}
+        - {x: -21, y: 132.5}
+        - {x: -54, y: 124.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
